@@ -106,7 +106,7 @@ export function CreatorSection() {
             <img
               src="/images/logo3.png"
               alt="Planeta Coinnecta"
-              className="absolute -right-0 -top-0 w-80 opacity-20 pointer-events-none"
+              className="absolute -right-0 -top-0 w-80 opacity-5 md:opacity-20 pointer-events-none"
             />
             <div className="absolute left-10 top-10 w-24 h-24 bg-golden/20 rounded-full blur-2xl opacity-60 pointer-events-none" />
             <div className="relative z-10">
