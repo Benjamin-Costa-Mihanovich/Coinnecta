@@ -15,17 +15,7 @@ const Index = () => {
       <CreatorSection />
       <ContentSection />
       <TestimonialsSection />
-      <SpotsCard
-  total={50}
-  taken={27}
-  deadline={new Date("2025-08-25T12:00:00-03:00")} // opcional
-  backgroundUrl="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1600&q=80" // opcional
-  title="50 personas por semana"
-  note="No es táctica de ventas. Es logística real."
-  ctaLabel="Reservar mi lugar"
-  onCta={() => {/* abre modal o scroll-to-form */}}
-/>
-
+      <SpotsCard />
       <FAQSection />
       <Footer />
     </div>

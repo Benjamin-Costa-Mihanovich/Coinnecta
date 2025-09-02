@@ -107,6 +107,15 @@ export function HeroSection() {
                 variant="secondary" 
                 size="lg"
                 className="flex-1 sm:flex-none sm:w-auto hover:bg-white/10 transition-colors text-sm sm:text-base lg:text-base py-4 px-6 sm:px-8 lg:px-8"
+                onClick={() => {
+                  const testimonialsSection = document.getElementById('testimonios');
+                  if (testimonialsSection) {
+                    testimonialsSection.scrollIntoView({ 
+                      behavior: 'smooth',
+                      block: 'start'
+                    });
+                  }
+                }}
               >
                 VER TESTIMONIOS
               </CTAButton>

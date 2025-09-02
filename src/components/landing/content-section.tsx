@@ -109,7 +109,7 @@ export function ContentSection() {
             SISTEMA COMPROBADO
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5">
-            Domina el <span className="text-golden">Upsell en 4 </span><br />
+            Domina las <span className="text-golden">Ventas Online en 4 </span><br />
             Pasos Clave
           </h2>
           <p className="text-lg text-white/85 max-w-3xl mx-auto">
@@ -201,7 +201,7 @@ export function ContentSection() {
               size="xl" 
               className="w-full sm:w-auto hover:scale-105 transition-transform duration-300 shadow-lg shadow-golden/30 relative overflow-hidden"
             >
-              <span className="relative z-10">🚀 Quiero Acceder Ahora</span>
+              <span className="relative z-10">🚀 Quiero Comenzar Ahora</span>
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 -rotate-45 scale-150"></span>
             </CTAButton>
           </div>

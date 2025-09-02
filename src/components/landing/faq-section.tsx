@@ -119,7 +119,7 @@ export function FAQSection() {
               
               <div className="relative z-10">
                 <h3 className="font-display text-2xl lg:text-3xl font-bold text-foreground mb-4">
-                  ¿Listo para <span className="text-transparent bg-gradient-golden bg-clip-text">impulsar</span> tu negocio?
+                  ¿Listo para <span className="text-transparent bg-gradient-golden bg-clip-text">empezar</span> a ganar?
                 </h3>
                 <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
                   Únete a nuestra comunidad de emprendedores y transforma tu forma de vender online.
@@ -129,8 +129,21 @@ export function FAQSection() {
                   <CTAButton size="xl" className="w-full sm:w-auto">
                     🚀 Comenzar ahora
                   </CTAButton>
-                  <CTAButton size="xl" className="w-full sm:w-auto">
-                    📞 Contactar asesor
+                  <CTAButton 
+                    variant="secondary" 
+                    size="xl" 
+                    className="w-full sm:w-auto bg-transparent border-2 border-golden/30 text-golden hover:bg-golden/10 hover:border-golden hover:text-white transition-all duration-300"
+                    onClick={() => {
+                      const testimonialsSection = document.getElementById('testimonios');
+                      if (testimonialsSection) {
+                        testimonialsSection.scrollIntoView({ 
+                          behavior: 'smooth',
+                          block: 'start'
+                        });
+                      }
+                    }}
+                  >
+                    ⭐ Ver testimonios
                   </CTAButton>
                 </div>
                 

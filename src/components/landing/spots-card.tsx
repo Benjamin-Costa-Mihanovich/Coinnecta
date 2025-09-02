@@ -25,11 +25,11 @@ export type SpotsCardProps = {
 
 export default function SpotsCard({
   total = 50,
-  taken = 27,
+  taken = 43,
   deadline,
-  title = "50 personas por semana",
-  note = "No es táctica de ventas. Es logística real.",
-  ctaLabel = "Reservar mi lugar",
+  title = "50 plazas por mes",
+  note = "No es una fórmula mágica. Es una estrategia real",
+  ctaLabel = "Quiero Comenzar Ahora",
   onCta,
   className = "",
   includeTitle = "INCLUYE:",
@@ -52,8 +52,7 @@ export default function SpotsCard({
   const pct = Math.min(100, Math.max(0, (taken / total) * 100));
   const isLow = available <= 10;
 
-  // Countdown sincronizado
-  const remaining = useCountdown();
+ 
 
   return (
     <section
@@ -110,20 +109,6 @@ export default function SpotsCard({
         <p className="mt-4 text-base sm:text-lg font-bold tracking-wide text-amber-300 uppercase drop-shadow-lg">
           LUGARES DISPONIBLES
         </p>
-
-        <AnimatePresence>
-          {isLow && (
-            <motion.div
-              initial={{ y: -6, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -6, opacity: 0 }}
-              className="mt-3 inline-flex items-center gap-2 rounded-full border-2 border-amber-400/60 bg-amber-400/10 px-4 py-2 text-sm font-bold text-amber-300 shadow-lg backdrop-blur animate-pulse"
-            >
-              <span className="inline-block h-2 w-2 rounded-full bg-amber-300 animate-ping" />
-              ¡Quedan pocos lugares!
-            </motion.div>
-          )}
-        </AnimatePresence>
         {/* Número de lugares ocupados destacado */}
         <div className="mt-6 text-lg sm:text-xl font-bold text-white/90 bg-black/40 px-4 py-2 rounded-xl border border-amber-400/30 shadow-md flex items-center gap-2">
           <svg className="w-5 h-5 text-amber-300 animate-pulse" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 0 1 .894.553l7 14A1 1 0 0 1 17 18H3a1 1 0 0 1-.894-1.447l7-14A1 1 0 0 1 10 2zm0 4a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1zm0 8a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>
@@ -160,19 +145,6 @@ export default function SpotsCard({
               {Math.round(pct)}% ocupado
             </span>
           </div>
-        </div>
-        <div className="mt-6 flex flex-col items-center gap-2 text-sm">
-          {remaining ? (
-            <div className="inline-flex items-center gap-2 rounded-lg border border-amber-400/30 bg-white/5 px-3 py-1 text-base backdrop-blur ">
-              <span className="inline-block h-1.5 w-1.5  rounded-full bg-amber-300" />
-              <span className="font-bold text-amber-300">¡Cupos por cerrar!</span>
-              <span className="ml-1 font-bold text-amber-300">
-                {remaining.days}d {remaining.hours}h {remaining.minutes}m {remaining.seconds}s
-              </span>
-            </div>
-          ) : (
-            <div className="text-white/80">Próxima apertura muy pronto</div>
-          )}
         </div>
       </div>
 

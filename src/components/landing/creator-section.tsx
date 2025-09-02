@@ -131,8 +131,8 @@ export function CreatorSection() {
                     <span className="font-bold text-golden">Con solo $20</span> en el bolsillo, Pascu apostó por su visión y lanzó su primer anuncio. En menos de un año transformó esa inversión en su <span className="font-bold text-golden">primer millón</span>.
                   </p>
                   <div className="mt-6 flex items-center gap-2">
-                    <span className="inline-block px-3 py-1 rounded-full bg-gray-900 border border-golden/40 text-golden font-bold text-xs shadow-lg backdrop-blur-md ">Mentalidad europea</span>
-                    <span className="inline-block px-3 py-1 rounded-full bg-golden/15 text-golden font-semibold text-xs shadow-md animate-fade-in">Upsell desde el día 1</span>
+                    <span className="inline-block px-3 py-1 rounded-full bg-gray-900 border border-golden/40 text-golden font-bold text-xs shadow-lg backdrop-blur-md ">Formula europea</span>
+                    <span className="inline-block px-3 py-1 rounded-full bg-golden/15 text-golden font-semibold text-xs shadow-md animate-fade-in">Ventas desde el día 1</span>
                   </div>
                 </div>
                 <div className="flex-1">
