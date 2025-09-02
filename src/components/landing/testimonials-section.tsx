@@ -178,13 +178,15 @@ export default function TestimonialsSection() {
 
   return (
     <section id="testimonios" className="relative py-20 lg:py-32 bg-gradient-to-br from-slate-50 via-white to-gray-50 overflow-hidden">
-      {/* Fondo moderno con patrones geométricos */}
+      {/* Fondo con overlay sutil */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#f1f5f9_1px,transparent_1px),linear-gradient(to_bottom,#f1f5f9_1px,transparent_1px)] bg-[size:6rem_4rem] opacity-30" />
-        <div className="absolute top-0 right-0 w-72 h-72 bg-gradient-to-bl from-golden/20 via-amber-100/40 to-transparent rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-blue-100/30 via-indigo-50/40 to-transparent rounded-full blur-3xl" />
+        <img 
+          src="https://images.unsplash.com/photo-1705023868869-92166eff39c1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="Fondo abstracto digital" 
+          className="w-full h-full object-cover opacity-60"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-50/60 via-gray-50/50 to-gray-60/80" />
       </div>
-
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         {/* Encabezado */}
         <div className="text-center mb-16 lg:mb-20">

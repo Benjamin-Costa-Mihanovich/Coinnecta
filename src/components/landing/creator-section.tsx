@@ -49,11 +49,11 @@ export function CreatorSection() {
               El único europeo en facturar millones en Europa y LATAM
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-golden to-golden/80 font-bold">Pascu Moreno</span> formando emprendedores digitales
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-950 to-gray-950 font-bold">Pascu Moreno</span> formando emprendedores digitales
             </p>
             <div className="prose-xl text-gray-700 mb-8 space-y-4">
               <p>
-                <strong className="text-golden">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>$4,500,000+</strong> en ventas y que ahora enseño a mis alumnos.
+                <strong className="text-gray-900">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>$4,500,000+</strong> en ventas y que ahora enseño a mis alumnos.
               </p>
 
               <ul className="space-y-3 pl-5">
@@ -112,7 +112,7 @@ export function CreatorSection() {
         </div>
         {/* Historia de Pascu - Primer millón */}
         <div className="mt-20 relative">
-          <div className="bg-gradient-to-br from-golden/15 via-white to-gray-100 rounded-3xl p-8 md:p-14 shadow-2xl border border-golden/30 overflow-hidden animate-fade-in">
+          <div className="bg-gradient-to-br from-golden/15 via-gray-100 to-gray-200 rounded-3xl p-8 md:p-14 shadow-2xl border border-golden/30 overflow-hidden animate-fade-in">
             <img
               src="/images/logo.png"
               alt="Planeta Coinnecta"
@@ -123,7 +123,7 @@ export function CreatorSection() {
               <div className="flex flex-col items-center mb-6">
                 <span className="inline-block px-4 py-1 rounded-full bg-golden/20 text-golden font-bold text-xs tracking-wider shadow-golden/20 shadow-md mb-2">Historia real</span>
                 <p className="text-center text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Septiembre 2019</p>
-                <h3 className="text-center text-3xl md:text-4xl font-black text-gray-900 mb-6 bg-gradient-to-r from-golden via-amber-400 to-golden bg-clip-text text-transparent">Los últimos $20 que lo cambiaron todo</h3>
+                <h3 className="text-center text-3xl md:text-4xl font-black text-gray-900 mb-6 bg-gradient-to-r from-golden via-amber-500 to-golden bg-clip-text text-transparent">Los últimos $20 que lo cambiaron todo</h3>
               </div>
               <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="flex-1 text-gray-700 space-y-4">
@@ -132,7 +132,7 @@ export function CreatorSection() {
                   </p>
                   <div className="mt-6 flex items-center gap-2">
                     <span className="inline-block px-3 py-1 rounded-full bg-gray-900 border border-golden/40 text-golden font-bold text-xs shadow-lg backdrop-blur-md ">Formula europea</span>
-                    <span className="inline-block px-3 py-1 rounded-full bg-golden/15 text-golden font-semibold text-xs shadow-md animate-fade-in">Ventas desde el día 1</span>
+                    <span className="inline-block px-3 py-1 rounded-full bg-golden/15 text-gray-900 font-semibold text-xs shadow-md animate-fade-in">Ventas desde el día 1</span>
                   </div>
                 </div>
                 <div className="flex-1">
