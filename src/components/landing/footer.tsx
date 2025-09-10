@@ -7,7 +7,7 @@ export function Footer() {
           <div className="md:col-span-2 flex flex-col items-center md:items-start">
             <div className="flex items-center mb-5">
               <img 
-                src="/images/logo2.png" 
+                src="/images/logo3.png" 
                 alt="COINNECTA Logo" 
                 className="h-12 mr-4"
               />

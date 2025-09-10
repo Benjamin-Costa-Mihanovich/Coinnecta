@@ -127,8 +127,12 @@ function VideoCarousel() {
 
         {/* CTA moderno */}
         <div className="mt-10 text-center">
-          <CTAButton size="xl" className="bg-gradient-to-r from-golden to-amber-500 hover:from-amber-500 hover:to-golden text-gray-900 font-bold shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-           QUIERO RESULTADOS ASÍ 🚀
+          <CTAButton 
+            size="xl" 
+            className="bg-gradient-to-r from-golden to-amber-500 hover:from-amber-500 hover:to-golden text-gray-900 font-bold shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+            onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+          >
+           🚀 QUIERO COMENZAR AHORA
           </CTAButton>
         </div>
       </div>

@@ -126,7 +126,11 @@ export function FAQSection() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-                  <CTAButton size="xl" className="w-full sm:w-auto">
+                  <CTAButton 
+                    size="xl" 
+                    className="w-full sm:w-auto"
+                    onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+                  >
                     🚀 Comenzar ahora
                   </CTAButton>
                   <CTAButton 
