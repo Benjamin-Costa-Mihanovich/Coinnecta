@@ -56,29 +56,29 @@ export function CookieBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-3 sm:p-4 animate-slide-up">
-      <div className="max-w-7xl mx-auto">
-        <div className="relative bg-gradient-to-br from-black/95 via-gray-950/95 to-black/95 backdrop-blur-2xl border border-golden/30 rounded-3xl shadow-2xl shadow-golden/10 overflow-hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-50 p-2 sm:p-3 animate-slide-up">
+      <div className="max-w-6xl mx-auto">
+        <div className="relative bg-gradient-to-br from-black/95 via-gray-950/95 to-black/95 backdrop-blur-2xl border border-golden/30 rounded-2xl sm:rounded-3xl shadow-2xl shadow-golden/10 overflow-hidden">
           {/* Enhanced decorative effects */}
           <div className="absolute inset-0 bg-gradient-to-br from-golden/10 via-transparent to-golden/5" />
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-40 h-1 bg-gradient-to-r from-transparent via-golden to-transparent blur-sm" />
-          <div className="absolute -top-px left-1/2 -translate-x-1/2 w-20 h-px bg-golden" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-0.5 bg-gradient-to-r from-transparent via-golden to-transparent blur-sm" />
+          <div className="absolute -top-px left-1/2 -translate-x-1/2 w-16 h-px bg-golden" />
           
-          {/* Floating particles effect */}
-          <div className="absolute top-4 left-8 w-1 h-1 bg-golden/40 rounded-full animate-pulse" />
-          <div className="absolute top-8 right-12 w-1 h-1 bg-golden/30 rounded-full animate-pulse delay-300" />
-          <div className="absolute bottom-6 left-16 w-1 h-1 bg-golden/20 rounded-full animate-pulse delay-700" />
+          {/* Floating particles effect - reduced size */}
+          <div className="absolute top-3 left-6 w-0.5 h-0.5 bg-golden/40 rounded-full animate-pulse" />
+          <div className="absolute top-6 right-10 w-0.5 h-0.5 bg-golden/30 rounded-full animate-pulse delay-300" />
+          <div className="absolute bottom-4 left-12 w-0.5 h-0.5 bg-golden/20 rounded-full animate-pulse delay-700" />
           
           {/* Enhanced close button */}
           <button
             onClick={closeBanner}
-            className="absolute top-4 right-4 p-2.5 text-white/50 hover:text-white hover:bg-golden/10 rounded-xl transition-all duration-300 z-10 group border border-white/10 hover:border-golden/30"
+            className="absolute top-3 right-3 p-2 text-white/50 hover:text-white hover:bg-golden/10 rounded-lg transition-all duration-300 z-10 group border border-white/10 hover:border-golden/30"
             aria-label="Cerrar banner de cookies"
           >
-            <X size={16} className="group-hover:rotate-90 transition-transform duration-300" />
+            <X size={14} className="group-hover:rotate-90 transition-transform duration-300" />
           </button>
 
-          <div className="relative p-6 sm:p-8 lg:p-10">
+          <div className="relative p-4 sm:p-6 lg:p-7">
             {!showDetails ? (
               // Enhanced main cookie banner
               <div className="flex flex-col lg:flex-row items-start lg:items-center gap-6">
@@ -120,17 +120,17 @@ export function CookieBanner() {
                 </div>
 
                 {/* Enhanced action buttons */}
-                <div className="flex flex-col sm:flex-row gap-3 w-full lg:w-auto lg:flex-shrink-0 lg:min-w-[320px]">
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full lg:w-auto lg:flex-shrink-0 lg:min-w-[280px]">
                   <button
                     onClick={acceptNecessary}
-                    className="px-6 py-3.5 text-white/80 hover:text-white border border-white/20 hover:border-white/40 rounded-2xl transition-all duration-300 text-sm font-medium hover:bg-white/5 backdrop-blur-sm group relative overflow-hidden"
+                    className="px-4 py-2.5 sm:px-5 sm:py-3 text-white/80 hover:text-white border border-white/20 hover:border-white/40 rounded-xl transition-all duration-300 text-xs sm:text-sm font-medium hover:bg-white/5 backdrop-blur-sm group relative overflow-hidden"
                   >
                     <span className="relative z-10">Solo esenciales</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </button>
                   <button
                     onClick={acceptAll}
-                    className="px-6 py-3.5 bg-gradient-to-r from-golden to-golden-glow hover:from-golden-glow hover:to-golden text-black font-bold rounded-2xl transition-all duration-300 text-sm shadow-lg shadow-golden/25 hover:shadow-golden/40 hover:scale-[1.02] group relative overflow-hidden"
+                    className="px-4 py-2.5 sm:px-5 sm:py-3 bg-gradient-to-r from-golden to-golden-glow hover:from-golden-glow hover:to-golden text-black font-bold rounded-xl transition-all duration-300 text-xs sm:text-sm shadow-lg shadow-golden/25 hover:shadow-golden/40 hover:scale-[1.02] group relative overflow-hidden"
                   >
                     <span className="relative z-10">Aceptar todas</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rotate-45 scale-150" />
@@ -138,103 +138,100 @@ export function CookieBanner() {
                 </div>
               </div>
             ) : (
-              // Enhanced detailed cookie settings
-              <div className="space-y-8">
-                <div className="flex items-center gap-4 mb-8">
+              // Enhanced detailed cookie settings - optimized for mobile
+              <div className="space-y-4 sm:space-y-6">
+                <div className="flex items-center gap-3 mb-4 sm:mb-6">
                   <button
                     onClick={() => setShowDetails(false)}
-                    className="p-2.5 text-golden hover:text-golden-glow transition-all duration-300 hover:bg-golden/10 rounded-xl border border-golden/20"
+                    className="p-2 text-golden hover:text-golden-glow transition-all duration-300 hover:bg-golden/10 rounded-lg border border-golden/20"
                   >
-                    ← Volver
+                    ← 
                   </button>
-                  <h3 className="font-display text-2xl font-bold text-white">
+                  <h3 className="font-display text-lg sm:text-xl font-bold text-white">
                     Configuración de cookies
                   </h3>
                 </div>
 
-                <div className="space-y-6">
+                <div className="space-y-3 sm:space-y-4">
                   {/* Necessary cookies */}
-                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-2xl p-6 hover:border-golden/20 transition-all duration-300">
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-500/20 to-green-600/10 rounded-xl flex items-center justify-center">
-                        <Shield className="w-5 h-5 text-green-400" />
+                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-xl p-3 sm:p-4 hover:border-golden/20 transition-all duration-300">
+                    <div className="flex items-start gap-3 mb-2">
+                      <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-green-500/20 to-green-600/10 rounded-lg flex items-center justify-center">
+                        <Shield className="w-4 h-4 text-green-400" />
                       </div>
-                      <div className="flex-1">
-                        <h4 className="font-semibold text-white mb-2 text-lg">Cookies esenciales</h4>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                          Necesarias para el funcionamiento básico del sitio web. No se pueden desactivar 
-                          ya que garantizan la seguridad y funcionalidad de la plataforma.
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-semibold text-white mb-1 text-sm sm:text-base">Cookies esenciales</h4>
+                        <p className="text-white/70 text-xs sm:text-sm leading-relaxed">
+                          Necesarias para el funcionamiento básico del sitio web. No se pueden desactivar.
                         </p>
                       </div>
-                      <div className="text-xs text-green-400 bg-green-500/10 px-3 py-1.5 rounded-full border border-green-500/20">
-                        Siempre activas
+                      <div className="text-xs text-green-400 bg-green-500/10 px-2 py-1 rounded-full border border-green-500/20 whitespace-nowrap">
+                        Activas
                       </div>
                     </div>
                   </div>
 
                   {/* Analytics cookies */}
-                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-2xl p-6 hover:border-golden/20 transition-all duration-300">
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-500/20 to-blue-600/10 rounded-xl flex items-center justify-center">
-                        <Settings className="w-5 h-5 text-blue-400" />
+                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-xl p-3 sm:p-4 hover:border-golden/20 transition-all duration-300">
+                    <div className="flex items-start gap-3 mb-2">
+                      <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-blue-500/20 to-blue-600/10 rounded-lg flex items-center justify-center">
+                        <Settings className="w-4 h-4 text-blue-400" />
                       </div>
-                      <div className="flex-1">
-                        <h4 className="font-semibold text-white mb-2 text-lg">Cookies analíticas</h4>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                          Nos ayudan a entender cómo interactúas con nuestro sitio web mediante la recopilación 
-                          de información de forma anónima para mejorar la experiencia del usuario.
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-semibold text-white mb-1 text-sm sm:text-base">Cookies analíticas</h4>
+                        <p className="text-white/70 text-xs sm:text-sm leading-relaxed">
+                          Nos ayudan a entender cómo interactúas con nuestro sitio web de forma anónima.
                         </p>
                       </div>
-                      <label className="relative inline-flex items-center cursor-pointer">
+                      <label className="relative inline-flex items-center cursor-pointer flex-shrink-0">
                         <input 
                           type="checkbox" 
                           checked={preferences.analytics}
                           onChange={(e) => setPreferences(prev => ({ ...prev, analytics: e.target.checked }))}
                           className="sr-only peer" 
                         />
-                        <div className="w-12 h-6 bg-white/20 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-golden shadow-inner" />
+                        <div className="w-10 h-5 sm:w-11 sm:h-6 bg-white/20 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 sm:after:h-5 sm:after:w-5 after:transition-all peer-checked:bg-golden shadow-inner" />
                       </label>
                     </div>
                   </div>
 
                   {/* Marketing cookies */}
-                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-2xl p-6 hover:border-golden/20 transition-all duration-300">
-                    <div className="flex items-start gap-4 mb-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-500/20 to-purple-600/10 rounded-xl flex items-center justify-center">
-                        <Cookie className="w-5 h-5 text-purple-400" />
+                  <div className="bg-gradient-to-r from-white/5 to-white/2 border border-white/10 rounded-xl p-3 sm:p-4 hover:border-golden/20 transition-all duration-300">
+                    <div className="flex items-start gap-3 mb-2">
+                      <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-purple-500/20 to-purple-600/10 rounded-lg flex items-center justify-center">
+                        <Cookie className="w-4 h-4 text-purple-400" />
                       </div>
-                      <div className="flex-1">
-                        <h4 className="font-semibold text-white mb-2 text-lg">Cookies de marketing</h4>
-                        <p className="text-white/70 text-sm leading-relaxed">
-                          Se utilizan para personalizar los anuncios y medir la efectividad de nuestras 
-                          campañas publicitarias para ofrecerte contenido más relevante.
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-semibold text-white mb-1 text-sm sm:text-base">Cookies de marketing</h4>
+                        <p className="text-white/70 text-xs sm:text-sm leading-relaxed">
+                          Se utilizan para personalizar los anuncios y medir la efectividad de las campañas.
                         </p>
                       </div>
-                      <label className="relative inline-flex items-center cursor-pointer">
+                      <label className="relative inline-flex items-center cursor-pointer flex-shrink-0">
                         <input 
                           type="checkbox" 
                           checked={preferences.marketing}
                           onChange={(e) => setPreferences(prev => ({ ...prev, marketing: e.target.checked }))}
                           className="sr-only peer" 
                         />
-                        <div className="w-12 h-6 bg-white/20 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-golden shadow-inner" />
+                        <div className="w-10 h-5 sm:w-11 sm:h-6 bg-white/20 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 sm:after:h-5 sm:after:w-5 after:transition-all peer-checked:bg-golden shadow-inner" />
                       </label>
                     </div>
                   </div>
                 </div>
 
                 {/* Enhanced action buttons for detailed view */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-white/10">
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 pt-4 border-t border-white/10">
                   <button
                     onClick={acceptSelected}
-                    className="flex-1 px-6 py-4 text-white/80 hover:text-white border border-white/20 hover:border-white/40 rounded-2xl transition-all duration-300 text-sm font-medium hover:bg-white/5 group relative overflow-hidden"
+                    className="flex-1 px-4 py-3 text-white/80 hover:text-white border border-white/20 hover:border-white/40 rounded-xl transition-all duration-300 text-xs sm:text-sm font-medium hover:bg-white/5 group relative overflow-hidden"
                   >
                     <span className="relative z-10">Guardar configuración</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </button>
                   <button
                     onClick={acceptAll}
-                    className="flex-1 px-6 py-4 bg-gradient-to-r from-golden to-golden-glow hover:from-golden-glow hover:to-golden text-black font-bold rounded-2xl transition-all duration-300 text-sm shadow-lg shadow-golden/25 hover:shadow-golden/40 hover:scale-[1.02] group relative overflow-hidden"
+                    className="flex-1 px-4 py-3 bg-gradient-to-r from-golden to-golden-glow hover:from-golden-glow hover:to-golden text-black font-bold rounded-xl transition-all duration-300 text-xs sm:text-sm shadow-lg shadow-golden/25 hover:shadow-golden/40 hover:scale-[1.02] group relative overflow-hidden"
                   >
                     <span className="relative z-10">Aceptar todas</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rotate-45 scale-150" />
