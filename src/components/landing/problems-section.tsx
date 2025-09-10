@@ -68,12 +68,12 @@ export function ProblemsSection() {
           </p>
         </div>
 
-        {/* Grid de problemas - Versión 2.0 */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl mx-auto">
+        {/* Grid de problemas - Versión 2.0 con menos espaciado vertical en mobile */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 max-w-6xl mx-auto">
           {problems.map((problem, index) => (
             <div 
               key={index}
-              className="relative bg-black/30 backdrop-blur-md border border-white/5 rounded-2xl p-5 sm:p-7 hover:bg-black/40 transition-all duration-500 group overflow-hidden"
+              className="relative bg-black/30 backdrop-blur-md border border-white/5 rounded-2xl p-4 sm:p-7 hover:bg-black/40 transition-all duration-500 group overflow-hidden"
               style={{
                 boxShadow: "0 8px 32px rgba(0, 0, 0, 0.2)"
               }}
@@ -82,10 +82,10 @@ export function ProblemsSection() {
               <div className="absolute inset-y-0 left-0 w-1 transition-all duration-300"></div>
               
               <div className="flex flex-col h-full">
-                <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-20 lg:h-20 xl:w-24 xl:h-24 bg-gradient-to-br from-golden/15 to-golden/5 rounded-xl flex items-center justify-center mb-4 sm:mb-6 mx-auto transition-transform group-hover:scale-110">
+                <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-20 lg:h-20 xl:w-24 xl:h-24 bg-gradient-to-br from-golden/15 to-golden/5 rounded-xl flex items-center justify-center mb-3 sm:mb-6 mx-auto transition-transform group-hover:scale-110">
                   <img src={problem.img} alt={problem.title} className="w-16 h-16 sm:w-20 sm:h-20 lg:w-16 lg:h-16 xl:w-20 xl:h-20 object-contain" />
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-white text-center mb-3 sm:mb-4 px-2 sm:px-4">
+                <h3 className="text-lg sm:text-xl font-bold text-white text-center mb-2 sm:mb-4 px-2 sm:px-4">
                   <span className="bg-gradient-to-r from-golden/30 via-golden/80 to-golden/30 bg-[length:0%_2px] bg-no-repeat bg-left-bottom group-hover:bg-[length:100%_2px] transition-all duration-500">
                     {problem.title}
                   </span>
@@ -115,7 +115,7 @@ export function ProblemsSection() {
               </div>
               <div className="text-center sm:text-left">
                 <h4 className="text-lg sm:text-xl font-bold text-white mb-1">
-                  <span className="text-golden">Solución comprobada:</span> Sistema COINNECTA
+                  <span className="text-golden">SOLUCIÓN COMPROBADA:</span> Sistema COINNECTA
                 </h4>
                 <p className="text-white/80 text-sm sm:text-base">
                   Transforma estos problemas en ventajas competitivas en menos de 30 días

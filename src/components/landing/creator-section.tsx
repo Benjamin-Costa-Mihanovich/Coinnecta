@@ -32,7 +32,7 @@ export function CreatorSection() {
               </div>
               {/* Sellos de credibilidad */}
               <div className="absolute -bottom-4 right-1/2 translate-x-1/2 bg-gray-900 text-golden px-5 py-2 rounded-full text-sm font-bold shadow-lg border-2 border-golden">
-                +$4,500,000 en ventas
+                +€4,500,000 en ventas
               </div>
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-golden text-gray-900 px-4 py-1 rounded-full text-xs font-bold shadow-md">
                 TOP 1% 
@@ -46,20 +46,20 @@ export function CreatorSection() {
               Creador de la Formula Europeo
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-4">
-              El único europeo en facturar millones en Europa y LATAM
+              EL ÚNICO EUROPEO EN FACTURAR MILLONES EN EUROPA Y LATAM
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-950 to-gray-950 font-bold">Pascu Moreno</span> formando emprendedores digitales
             </p>
             <div className="prose-xl text-gray-700 mb-8 space-y-4">
               <p>
-                <strong className="text-gray-900">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>$4,500,000+</strong> en ventas y que ahora enseño a mis alumnos.
+                <strong className="text-gray-900">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>€4,500,000+</strong> en ventas y que ahora enseño a mis alumnos.
               </p>
 
               <ul className="space-y-3 pl-5">
                 <li className="flex items-start">
                   <span className="text-golden mr-2">▸</span>
-                  <span><strong>Método probado</strong> que funciona incluso si empiezas desde $0</span>
+                  <span><strong>Método probado</strong> que funciona incluso si empiezas desde €0</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-golden mr-2">▸</span>
@@ -75,7 +75,7 @@ export function CreatorSection() {
             {/* Logros destacados */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
               <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm text-center hover:shadow-md transition-shadow">
-                <div className="text-3xl font-black text-golden">$2M+</div>
+                <div className="text-3xl font-black text-golden">€2M+</div>
                 <div className="text-xs text-gray-600 font-semibold uppercase tracking-wider">Generado por alumnos</div>
               </div>
               <div className="bg-white p-4 rounded-xl border border-gray-200 shadow-sm text-center hover:shadow-md transition-shadow">
@@ -123,7 +123,7 @@ export function CreatorSection() {
               <div className="flex flex-col items-center mb-6">
                 <span className="inline-block px-4 py-1 rounded-full bg-golden/20 text-golden font-bold text-xs tracking-wider shadow-golden/20 shadow-md mb-2">Historia real</span>
                 <p className="text-center text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">Septiembre 2019</p>
-                <h3 className="text-center text-3xl md:text-4xl font-black text-gray-900 mb-6 bg-gradient-to-r from-golden via-amber-500 to-golden bg-clip-text text-transparent">Los últimos $20 que lo cambiaron todo</h3>
+                <h3 className="text-center text-3xl md:text-4xl font-black text-gray-900 mb-6 bg-gradient-to-r from-golden via-amber-500 to-golden bg-clip-text text-transparent">LOS ÚLTIMOS $20 QUE LO CAMBIARON TODO</h3>
               </div>
               <div className="flex flex-col md:flex-row items-center gap-10">
                 <div className="flex-1 text-gray-700 space-y-4">

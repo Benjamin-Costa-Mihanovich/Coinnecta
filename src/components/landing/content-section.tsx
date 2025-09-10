@@ -42,18 +42,18 @@ export function ContentSection() {
   const modules = [
     {
       icon: "🎯",
-      title: "Módulo 1: Fundamentos del Negocio Digital",
+      title: "MÓDULO 1: FUNDAMENTOS DEL NEGOCIO DIGITAL",
       features: [
         "Mindset emprendedor digital",
         "Análisis de mercado y nicho",
         "Validación de productos digitales",
-        "Configuración inicial en Hotmart"
+        "Configuración inicial"
       ],
       bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
       icon: "📈",
-      title: "Módulo 2: Estrategias de Ventas Online",
+      title: "MÓDULO 2: ESTRATEGIAS DE VENTAS ONLINE",
       features: [
         "Funnel de ventas efectivo",
         "Copywriting que convierte",
@@ -64,7 +64,7 @@ export function ContentSection() {
     },
     {
       icon: "💰",
-      title: "Módulo 3: Maestría en Upsell",
+      title: "MÓDULO 3: MAESTRÍA EN UPSELL",
       features: [
         "Estrategias de upsell y cross-sell",
         "Secuencias de ofertas irresistibles",
@@ -75,7 +75,7 @@ export function ContentSection() {
     },
     {
       icon: "📊",
-      title: "Módulo 4: Análisis y Optimización",
+      title: "MÓDULO 4: ANÁLISIS Y OPTIMIZACIÓN",
       features: [
         "Métricas que importan",
         "A/B testing efectivo",

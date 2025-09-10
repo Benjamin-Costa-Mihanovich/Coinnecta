@@ -44,7 +44,7 @@ export default function SpotsCard({
   priceCurrency = "USD",
   priceBadge = "ÚNICO PAGO",
   includeNote = "Esto no es un gasto. Es la inversión más accesible que vas a hacer para cambiar tu situación financiera.",
-  benefitsLeft = "Garantía de $1,000 o te pagamos $40",
+  benefitsLeft = "Garantía de $5,000 o te pagamos $50",
   benefitsRight = "30 días de reembolso total",
   bottomImageSrc = "./images/pascu.png",
 }: SpotsCardProps) {
