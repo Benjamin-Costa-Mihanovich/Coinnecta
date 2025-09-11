@@ -183,7 +183,7 @@ export default function SpotsCard({
             {/* Marca */}
             <div className="mb-4 flex justify-center">
               <span className="rounded-full border border-amber-400/30 bg-white/5 px-4 py-2 text-xs font-semibold tracking-widest text-amber-300 uppercase">
-                COINNECTA PREMIUM
+                MÉTODO EUROPEO
               </span>
             </div>
 

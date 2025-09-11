@@ -65,8 +65,8 @@ export function HeroSection() {
               {/* Título para mobile - 3 líneas exactas con tipografía más llamativa */}
               <h1 className="font-display block sm:hidden text-3xl font-black text-foreground leading-tight tracking-tight relative">
                 <span className="block mb-1 font-black text-shadow-2xl shadow-black/50 relative">
-                  <span className="relative z-10">DESCUBRE CÓMO GENERAR</span>
-                  <span className="absolute inset-0 text-golden/20 blur-sm">DESCUBRE CÓMO GENERAR</span>
+                  <span className="relative z-10">APRENDE A GENERAR</span>
+                  <span className="absolute inset-0 text-golden/20 blur-sm">APRENDE A GENERAR</span>
                 </span>
                 <span className="block mb-1 font-black text-shadow-2xl shadow-black/50 relative">
                   <span className="relative z-10">5000 USD EN 30 DÍAS</span>

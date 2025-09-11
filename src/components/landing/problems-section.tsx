@@ -115,7 +115,7 @@ export function ProblemsSection() {
               </div>
               <div className="text-center sm:text-left">
                 <h4 className="text-lg sm:text-xl font-bold text-white mb-1">
-                  <span className="text-golden">SOLUCIÓN COMPROBADA:</span> Sistema COINNECTA
+                  <span className="text-golden">SOLUCIÓN COMPROBADA:</span> MÉTODO EUROPEO
                 </h4>
                 <p className="text-white/80 text-sm sm:text-base">
                   Transforma estos problemas en ventajas competitivas en menos de 30 días

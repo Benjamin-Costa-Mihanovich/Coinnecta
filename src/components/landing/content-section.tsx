@@ -17,7 +17,7 @@ export function ContentSection() {
       resetTime.setDate(resetTime.getDate() + 2);
       resetTime.setHours(0, 0, 0, 0);
       
-    return Math.floor((resetTime.getTime() - now) / 1000); // Convert to seconds
+      return Math.floor((resetTime.getTime() - now) / 1000); // Convert to seconds
     };
 
     let totalSeconds = resetTimer();
@@ -41,48 +41,48 @@ export function ContentSection() {
 
   const modules = [
     {
-      icon: "🎯",
-      title: "MÓDULO 1: FUNDAMENTOS DEL NEGOCIO DIGITAL",
+      icon: "🗺️",
+      title: "MÓDULO 1: TU HOJA DE RUTA AL ÉXITO",
       features: [
-        "Mindset emprendedor digital",
-        "Análisis de mercado y nicho",
-        "Validación de productos digitales",
-        "Configuración inicial"
+        "Planificación estratégica completa",
+        "Roadmap paso a paso al éxito",
+        "Objetivos claros y alcanzables",
+        "Metodología probada"
       ],
       bgImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
-      icon: "📈",
-      title: "MÓDULO 2: ESTRATEGIAS DE VENTAS ONLINE",
+      icon: "🏗️",
+      title: "MÓDULO 5: CONSTRUYE TU TIENDA ONLINE DESDE CERO",
       features: [
-        "Funnel de ventas efectivo",
-        "Copywriting que convierte",
-        "Landing pages optimizadas",
-        "Email marketing automatizado"
+        "Diseño y estructura profesional",
+        "Configuración completa de Shopify",
+        "Optimización para conversiones",
+        "UX/UI que vende"
       ],
       bgImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
     },
     {
-      icon: "💰",
-      title: "MÓDULO 3: MAESTRÍA EN UPSELL",
+      icon: "📱",
+      title: "MÓDULO 7: META ADS",
       features: [
-        "Estrategias de upsell y cross-sell",
-        "Secuencias de ofertas irresistibles",
-        "Maximización del valor del cliente",
-        "Automatización de procesos"
-      ],
-      bgImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80"
-    },
-    {
-      icon: "📊",
-      title: "MÓDULO 4: ANÁLISIS Y OPTIMIZACIÓN",
-      features: [
-        "Métricas que importan",
-        "A/B testing efectivo",
-        "Optimización de conversiones",
-        "Escalabilidad del negocio"
+        "Configuración avanzada de Facebook Ads",
+        "Estrategias de bidding optimizadas",
+        "Retargeting y lookalike audiences",
+        "Escalado rentable de campañas"
       ],
       bgImage: "https://images.unsplash.com/photo-1590402494682-cd3fb53b1f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+      icon: "🎵",
+      title: "MÓDULO 8: TIKTOK ADS",
+      features: [
+        "Estrategias nativas de TikTok",
+        "Contenido viral que convierte",
+        "Optimización para generación Z",
+        "Campañas de alto ROI"
+      ],
+      bgImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2015&q=80"
     }
   ];
 
@@ -109,11 +109,11 @@ export function ContentSection() {
             SISTEMA COMPROBADO
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5">
-            Domina las <span className="text-golden">Ventas Online en 4 </span><br />
-            Pasos Clave
+            Domina el <span className="text-golden">eCommerce con 17 Módulos </span><br />
+            Especializados
           </h2>
           <p className="text-lg text-white/85 max-w-3xl mx-auto">
-            Método probado que ha aumentado ingresos en un <strong className="text-golden">217%</strong> a emprendedores
+            Formación completa que incluye <strong className="text-golden">Meta Ads, TikTok Ads, WhatsApp Marketing</strong> y mucho más
           </p>
         </div>
 
@@ -129,7 +129,7 @@ export function ContentSection() {
                 <img 
                   src={module.bgImage} 
                   alt={`Fondo ${module.title}`}
-                  className="w-full h-full object-cover opacity-20"
+                  className="w-full h-full object-cover opacity-40"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/80" />
               </div>
@@ -145,8 +145,8 @@ export function ContentSection() {
                 </div>
                 
                 <ul className="space-y-3.5">
-                  {module.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-3 text-white/85">
+                  {module.features.map((feature, featureIndex) => (
+                    <li key={featureIndex} className="flex items-start gap-3 text-white/85">
                       <div className="w-2 h-2 bg-golden rounded-full mt-2 flex-shrink-0" />
                       <span className="text-base">{feature}</span>
                     </li>
@@ -155,6 +155,19 @@ export function ContentSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Botón Ver más */}
+        <div className="text-center mb-20 lg:mb-24">
+          <button
+            onClick={() => window.open('https://coinnecta.es/', '_blank')}
+            className="inline-flex items-center gap-2 bg-transparent border-2 border-golden text-golden px-8 py-4 rounded-full font-bold hover:bg-golden hover:text-black transition-all duration-300 transform hover:scale-105"
+          >
+            <span>VER LOS 17 MÓDULOS COMPLETOS</span>
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </button>
         </div>
 
         {/* CTA con temporizador dinámico */}
@@ -169,8 +182,8 @@ export function ContentSection() {
             <div className="sm:hidden mb-4">
               <p className="text-white/80 text-sm">Valor total:</p>
               <p className="text-2xl font-black text-white">
-                <span className="line-through text-white/50">$3000</span>{" "}
-                <span className="text-golden">$9.99</span>
+                <span className="line-through text-white/50">€3,000</span>{" "}
+                <span className="text-golden">€9.99</span>
               </p>
               <p className="text-white/80 text-sm mt-2">
                 Oferta termina en: <span className="text-golden">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m</span>
@@ -182,8 +195,8 @@ export function ContentSection() {
               <div className="text-left">
                 <p className="text-white/80 text-sm">Valor total:</p>
                 <p className="text-2xl font-black text-white">
-                  <span className="line-through text-white/50">$3000</span>{" "}
-                  <span className="text-golden">$9,99</span>
+                  <span className="line-through text-white/50">€3,000</span>{" "}
+                  <span className="text-golden">€9.99</span>
                 </p>
               </div>
               

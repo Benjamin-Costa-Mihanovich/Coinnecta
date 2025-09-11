@@ -31,7 +31,7 @@ export function CreatorSection() {
                 />
               </div>
               {/* Sellos de credibilidad */}
-              <div className="absolute -bottom-4 right-1/2 translate-x-1/2 bg-gray-900 text-golden px-5 py-2 rounded-full text-sm font-bold shadow-lg border-2 border-golden">
+              <div className="absolute -bottom-4 right-1/2 translate-x-1/2 bg-gray-900 text-golden px-6 py-2 rounded-full text-sm font-bold shadow-lg border-2 border-golden whitespace-nowrap">
                 +€4,500,000 en ventas
               </div>
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-golden text-gray-900 px-4 py-1 rounded-full text-xs font-bold shadow-md">
@@ -43,7 +43,7 @@ export function CreatorSection() {
           {/* Contenido - Versión potente */}
           <div className="w-full lg:w-1/2 xl:w-7/12">
             <span className="inline-block bg-golden/10 text-golden px-4 py-2 rounded-full text-xs font-bold tracking-wider mb-5 uppercase">
-              Creador de la Formula Europeo
+              Creador de la Método Europeo
             </span>
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-4">
               EL ÚNICO EUROPEO EN FACTURAR MILLONES EN EUROPA Y LATAM
@@ -53,7 +53,7 @@ export function CreatorSection() {
             </p>
             <div className="prose-xl text-gray-700 mb-8 space-y-4">
               <p>
-                <strong className="text-gray-900">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>€4,500,000+</strong> en ventas y que ahora enseño a mis alumnos.
+                <strong className="text-gray-900">"Deja de complicarte"</strong> - Aquí está el sistema exacto que usé para generar <strong>€4,500,000+ el año pasado</strong> en ventas y que ahora enseño a mis alumnos.
               </p>
 
               <ul className="space-y-3 pl-5">
@@ -99,7 +99,7 @@ export function CreatorSection() {
                 className="bg-gradient-to-r from-golden to-amber-500 hover:from-amber-500 hover:to-golden text-gray-900 font-bold shadow-xl hover:shadow-golden/50 transition-all hover:-translate-y-0.5"
                 onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
               >
-                🤑 QUIERO GENERAR +$10K/MES
+                🤑 QUIERO GENERAR +$5K/MES
               </CTAButton>
               <CTAButton 
                 variant="secondary" 
@@ -132,7 +132,7 @@ export function CreatorSection() {
                     <span className="font-bold text-golden">Con solo $20</span> en el bolsillo, Pascu apostó por su visión y lanzó su primer anuncio. En menos de un año transformó esa inversión en su <span className="font-bold text-golden">primer millón</span>.
                   </p>
                   <div className="mt-6 flex items-center gap-2">
-                    <span className="inline-block px-3 py-1 rounded-full bg-gray-900 border border-golden/40 text-golden font-bold text-xs shadow-lg backdrop-blur-md ">Formula europea</span>
+                    <span className="inline-block px-3 py-1 rounded-full bg-gray-900 border border-golden/40 text-golden font-bold text-xs shadow-lg backdrop-blur-md ">Método europeo</span>
                     <span className="inline-block px-3 py-1 rounded-full bg-golden/15 text-gray-900 font-semibold text-xs shadow-md animate-fade-in">Ventas desde el día 1</span>
                   </div>
                 </div>
