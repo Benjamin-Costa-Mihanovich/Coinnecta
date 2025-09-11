@@ -169,7 +169,7 @@ export function ContentSection() {
             <div className="sm:hidden mb-4">
               <p className="text-white/80 text-sm">Valor total:</p>
               <p className="text-2xl font-black text-white">
-                <span className="line-through text-white/50">$25</span>{" "}
+                <span className="line-through text-white/50">$3000</span>{" "}
                 <span className="text-golden">$9.99</span>
               </p>
               <p className="text-white/80 text-sm mt-2">
@@ -182,7 +182,7 @@ export function ContentSection() {
               <div className="text-left">
                 <p className="text-white/80 text-sm">Valor total:</p>
                 <p className="text-2xl font-black text-white">
-                  <span className="line-through text-white/50">$25</span>{" "}
+                  <span className="line-through text-white/50">$3000</span>{" "}
                   <span className="text-golden">$9,99</span>
                 </p>
               </div>

@@ -31,8 +31,8 @@ const PrivacyPolicy = () => (
         <h2 className="text-xl font-bold mt-8 mb-3 text-golden">Tus derechos</h2>
         <p className="mb-4">
           Puedes acceder, actualizar o solicitar la eliminación de tus datos personales escribiéndonos a
-          <a href="mailto:hola@coinnecta.com" className="text-golden underline ml-1">
-            hola@coinnecta.com
+          <a href="mailto:admin@coinnecta.es" className="text-golden underline ml-1">
+            admin@coinnecta.es
           </a>
           .
         </p>

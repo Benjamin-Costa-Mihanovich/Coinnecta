@@ -10,36 +10,32 @@ import sectionBg3 from "@/assets/section-bg-3.jpg";
 export function FAQSection() {
   const faqs = [
     {
-      question: "¿Es COINNECTA adecuado para principiantes?",
-      answer: "¡Absolutamente! COINNECTA está diseñado tanto para principiantes que nunca han vendido online como para emprendedores que quieren optimizar sus resultados. Empezamos desde lo básico y avanzamos paso a paso."
+      question: "¿Necesito experiencia previa para realizar este curso?",
+      answer: "No, el curso está diseñado específicamente para tanto personas sin conocimiento hasta personas con un alto conocimiento y experiencia. Comenzamos desde los conceptos más básicos hasta los más complejos y avanzados que poca gente conoce y domina para que aprendas todo lo necesario."
     },
     {
-      question: "¿Cuánto tiempo necesito invertir por día?",
-      answer: "Recomendamos dedicar al menos 1-2 horas diarias durante las primeras 4 semanas para completar la formación. Después, podrás implementar las estrategias en tu propio ritmo."
+      question: "¿Qué es el eCommerce y cómo funciona?",
+      answer: "Es un modelo de negocio en el que puedes vender productos sin tener stock propio. En nuestro caso contamos con los mejores proveedores para que tengas y vendas los mejores productos al mejor precio en tu tienda."
     },
     {
-      question: "¿Funciona para cualquier tipo de negocio?",
-      answer: "Sí, las estrategias de COINNECTA son aplicables a cualquier negocio digital: infoproductos, cursos online, coaching, consultorías, ecommerce, y más. Los principios son universales."
+      question: "¿Cuánto dinero necesito para empezar?",
+      answer: "Recomendamos una inversión inicial de al menos 1.000 € (sin incluir la formación) para destinar a publicidad. En cuanto a los productos, os ofrecemos financiación, ya que confiamos plenamente en vuestro éxito."
     },
     {
-      question: "¿Qué diferencia a COINNECTA de otros cursos?",
-      answer: "COINNECTA se enfoca específicamente en la implementación práctica en Hotmart y estrategias de upsell probadas. No es teoría, son sistemas reales que han generado millones en ventas."
+      question: "¿El eCommerce sigue siendo rentable en 2025?",
+      answer: "Por supuesto que sí, no cabe duda. Tanto nosotros como nuestros alumnos hemos facturado cantidades muy elevadas este 2024, es un modelo de negocio que está en auge. Se esperan grandes cosas para este 2025 y 2026 si eres alumno."
     },
     {
-      question: "¿Hay garantía de resultados?",
-      answer: "Ofrecemos una garantía de satisfacción de 30 días. Si sigues el programa completo y no ves mejoras en tu negocio, te devolvemos el 100% de tu inversión."
+      question: "¿La formación se irá actualizando?",
+      answer: "Los tiempos cambian, y con ellos, las estrategias y formas de vender. Como expertos en venta online, nos mantenemos siempre actualizados. Por eso, nuestra formación se actualiza constantemente y, lo mejor de todo, sin coste adicional."
     },
     {
-      question: "¿Recibiré soporte personalizado?",
-      answer: "Sí, tienes acceso a nuestra comunidad VIP donde puedes hacer preguntas, compartir resultados y recibir feedback. Además, hacemos sesiones en vivo mensuales de Q&A."
+      question: "¿Cómo funciona la formación?",
+      answer: "Es una combinación de videos y seguimiento personalizado. Tendrás acceso de por vida a todos los videos, desde lo más básico hasta lo más avanzado, para que aprendas todo sobre este modelo de negocio. Además, contarás con un mentor que te guiará en tus primeros pasos, resolviendo todas tus dudas y brindándote apoyo continuo."
     },
     {
-      question: "¿El contenido se actualiza?",
-      answer: "Por supuesto. El marketing digital evoluciona constantemente, por eso actualizamos el contenido regularmente y todos los estudiantes reciben las actualizaciones sin costo adicional."
-    },
-    {
-      question: "¿Puedo acceder desde cualquier dispositivo?",
-      answer: "Sí, la plataforma es completamente responsive. Puedes acceder desde tu computadora, tablet o smartphone, y el progreso se sincroniza automáticamente."
+      question: "¿Con quién voy a realizar el seguimiento?",
+      answer: "Estarás mano a mano con los mejores expertos de cada rama en función a tus necesidades en ese preciso momento."
     }
   ];
 

@@ -29,10 +29,10 @@ const RefundPolicy = () => (
         <h2 className="text-xl font-bold mt-8 mb-3 text-golden">Cómo solicitarlo</h2>
         <p className="mb-4">
           Escríbenos a
-          <a href="mailto:hola@coinnecta.com" className="text-golden underline ml-1">
-            hola@coinnecta.com
+          <a href="mailto:admin@coinnecta.es" className="text-golden underline ml-1">
+             admin@coinnecta.es
           </a>
-          indicando el motivo y los datos de tu compra.
+           {" "}indicando el motivo y los datos de tu compra.
         </p>
         <h2 className="text-xl font-bold mt-8 mb-3 text-golden">Actualizaciones</h2>
         <p>

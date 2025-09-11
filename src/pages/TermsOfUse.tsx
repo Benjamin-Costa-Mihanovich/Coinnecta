@@ -35,8 +35,8 @@ const TermsOfUse = () => (
         <h2 className="text-xl font-bold mt-8 mb-3 text-golden">Contacto</h2>
         <p>
           Si tienes preguntas sobre estos términos, escríbenos a
-          <a href="mailto:hola@coinnecta.com" className="text-golden underline ml-1">
-            hola@coinnecta.com
+          <a href="mailto:admin@coinnecta.es" className="text-golden underline ml-1">
+            admin@coinnecta.es
           </a>
           .
         </p>

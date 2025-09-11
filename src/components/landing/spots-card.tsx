@@ -213,7 +213,7 @@ export default function SpotsCard({
                 ACCESO COMPLETO POR
               </p>
               <div className="flex items-baseline justify-center gap-2">
-                <span className="text-2xl text-white/60 line-through">$25</span>
+                <span className="text-2xl text-white/60 line-through">$3000</span>
                 <div className="bg-gradient-to-b from-amber-300 to-amber-500 bg-clip-text text-5xl sm:text-6xl font-black text-transparent drop-shadow-lg">
                   ${price}
                 </div>
