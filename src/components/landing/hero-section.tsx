@@ -80,7 +80,7 @@ export function HeroSection() {
               
               {/* Título para desktop - original */}
               <h1 className="font-display hidden sm:block text-2xl lg:text-3xl xl:text-4xl font-black text-foreground leading-tight tracking-tight">
-                <span className="block mb-2">DESCUBRE CÓMO GENERAR</span>
+                <span className="block mb-2">APRENDE A GENERAR</span>
                 <span className="block mb-2">5000 USD EN MENOS</span>
                 <span className="block mb-3">DE 30 DÍAS</span>
                 <span className="text-transparent bg-gradient-golden bg-clip-text block text-xl lg:text-3xl xl:text-4xl">
