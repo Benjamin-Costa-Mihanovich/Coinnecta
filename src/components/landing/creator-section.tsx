@@ -97,7 +97,7 @@ export function CreatorSection() {
               <CTAButton 
                 size="xl" 
                 className="bg-gradient-to-r from-golden to-amber-500 hover:from-amber-500 hover:to-golden text-gray-900 font-bold shadow-xl hover:shadow-golden/50 transition-all hover:-translate-y-0.5"
-                onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+                onClick={() => window.open('https://www.skool.com/coinnecta-8616', '_blank')}
               >
                 🤑 QUIERO GENERAR +$5K/MES
               </CTAButton>

@@ -30,7 +30,7 @@ export default function SpotsCard({
   title = "50 plazas por mes",
   note = "No es una fórmula mágica. Es una estrategia real",
   ctaLabel = "Quiero Comenzar Ahora",
-  onCta = () => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank'),
+  onCta = () => window.open('https://www.skool.com/coinnecta-8616', '_blank'),
   className = "",
   includeTitle = "INCLUYE:",
   features = [
@@ -40,7 +40,7 @@ export default function SpotsCard({
     "Soporte personal",
     "Acceso inmediato",
   ],
-  price = 9.99,
+  price = 20,
   priceCurrency = "USD",
   priceBadge = "ÚNICO PAGO",
   includeNote = "Esto no es un gasto. Es la inversión más accesible que vas a hacer para cambiar tu situación financiera.",

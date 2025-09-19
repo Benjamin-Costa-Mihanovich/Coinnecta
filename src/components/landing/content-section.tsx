@@ -182,8 +182,8 @@ export function ContentSection() {
             <div className="sm:hidden mb-4">
               <p className="text-white/80 text-sm">Valor total:</p>
               <p className="text-2xl font-black text-white">
-                <span className="line-through text-white/50">€3,000</span>{" "}
-                <span className="text-golden">€9.99</span>
+                <span className="line-through text-white/50">$3,000</span>{" "}
+                <span className="text-golden">20 USD</span>
               </p>
               <p className="text-white/80 text-sm mt-2">
                 Oferta termina en: <span className="text-golden">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m</span>
@@ -195,8 +195,8 @@ export function ContentSection() {
               <div className="text-left">
                 <p className="text-white/80 text-sm">Valor total:</p>
                 <p className="text-2xl font-black text-white">
-                  <span className="line-through text-white/50">€3,000</span>{" "}
-                  <span className="text-golden">€9.99</span>
+                  <span className="line-through text-white/50">$3,000</span>{" "}
+                  <span className="text-golden">20 USD</span>
                 </p>
               </div>
               
@@ -213,7 +213,7 @@ export function ContentSection() {
             <CTAButton 
               size="xl" 
               className="w-full sm:w-auto hover:scale-105 transition-transform duration-300 shadow-lg shadow-golden/30 relative overflow-hidden"
-              onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+              onClick={() => window.open('https://www.skool.com/coinnecta-8616', '_blank')}
             >
               <span className="relative z-10">🚀 Quiero Comenzar Ahora</span>
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500 -rotate-45 scale-150"></span>
