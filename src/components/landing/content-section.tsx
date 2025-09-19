@@ -112,7 +112,7 @@ export function ContentSection() {
             Domina el <span className="text-golden">eCommerce con 17 Módulos </span><br />
             Especializados
           </h2>
-          <p className="text-lg text-white/85 max-w-3xl mx-auto">
+          <p className="text-lg text-white/85 max-w-3xl mx-auto"> 
             Formación completa que incluye <strong className="text-golden">Meta Ads, TikTok Ads, WhatsApp Marketing</strong> y mucho más
           </p>
         </div>
@@ -183,7 +183,7 @@ export function ContentSection() {
               <p className="text-white/80 text-sm">Valor total:</p>
               <p className="text-2xl font-black text-white">
                 <span className="line-through text-white/50">$3,000</span>{" "}
-                <span className="text-golden">20 USD</span>
+                <span className="text-golden">$20 </span>
               </p>
               <p className="text-white/80 text-sm mt-2">
                 Oferta termina en: <span className="text-golden">{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m</span>
@@ -196,7 +196,7 @@ export function ContentSection() {
                 <p className="text-white/80 text-sm">Valor total:</p>
                 <p className="text-2xl font-black text-white">
                   <span className="line-through text-white/50">$3,000</span>{" "}
-                  <span className="text-golden">20 USD</span>
+                  <span className="text-golden">$20 </span>
                 </p>
               </div>
               
