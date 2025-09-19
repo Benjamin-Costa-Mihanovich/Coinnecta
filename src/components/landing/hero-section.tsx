@@ -143,7 +143,7 @@ export function HeroSection() {
               <CTAButton 
                 size="lg" 
                 className="w-full sm:w-auto hover:scale-105 transition-transform duration-300 shadow-lg shadow-golden/30 text-sm sm:text-base lg:text-base py-3 sm:py-4 px-6 sm:px-8 lg:px-8"
-                onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+                onClick={() => window.open('https://www.skool.com/coinnecta-8616', '_blank')}
               >
                 🚀 COMENZAR AHORA
               </CTAButton>

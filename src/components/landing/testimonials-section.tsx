@@ -130,7 +130,7 @@ function VideoCarousel() {
           <CTAButton 
             size="xl" 
             className="w-full sm:w-auto bg-gradient-to-r from-golden to-amber-500 hover:from-amber-500 hover:to-golden text-gray-900 font-bold shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 px-6 py-4 text-sm sm:text-base"
-            onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+            onClick={() => window.open('https://www.skool.com/coinnecta-8616', '_blank')}
           >
            🚀 QUIERO COMENZAR AHORA
           </CTAButton>

@@ -125,7 +125,7 @@ export function FAQSection() {
                   <CTAButton 
                     size="xl" 
                     className="w-full sm:w-auto"
-                    onClick={() => window.open('https://academia.coinnecta.es/producto/suscripcion-mensual-academia/', '_blank')}
+                    onClick={() => window.open('https://www.skool.com/coinnecta-8616', '_blank')}
                   >
                     🚀 Comenzar ahora
                   </CTAButton>
